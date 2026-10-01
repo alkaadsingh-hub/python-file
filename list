@@ -1,0 +1,132 @@
+marks = [30, 40, 70, 45, 31, 5454]    #to print list we use square brackets []
+print(marks)
+print(type(marks))
+
+
+# # To access the list of marks we use indexing
+print(marks[0]) #30
+print(marks[4]) #31
+
+
+# #printing length of list
+print(len(marks))
+
+
+## IN LIST WE CAN STORE DIFFERENT TYPES OF DATATYPE TOGETHER WHILE IN OTHER LANGUAGES IN ARRAY WE STORE SAME TYPE OF DATATYPE
+#example
+student = ["karan", 35, "delhi", 70.25]
+print(student)
+print(student[2])
+print(student[3])
+
+
+# #STRINGS ARE IMMUTABLE BUT LIST ARE MUTABLE IN PYTHON
+# #EXAMPLE
+str = "yellow"
+print(str[0])
+str[0] = "b"   ##output will be nothing 
+
+
+#the above programm is possible in list
+student = ["yellow", 20.7, 30, "chennai"]
+print(student[3])
+student[3] = "new delhi"
+print(student)
+
+
+
+
+
+
+
+
+
+## list slicing
+number = [101, 202, 305, 110, 70]
+print(number[1:3])  ##ending indexnot included
+
+
+print(number[:2])   ##same as num[0:2]
+print(number[1:])   ##same as num[1:len(marks)] OR num[1:5]
+print(number[-3:-1])  ##indexing strting from end that is 70 is 0, 110 is -1, 305 is-2 and so on.......... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

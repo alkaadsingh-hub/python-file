@@ -1,0 +1,7 @@
+print("hello python")
+print("this is python programming")
+
+#single line comment
+
+"""multi line
+comment"""

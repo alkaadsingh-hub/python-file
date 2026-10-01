@@ -1,0 +1,77 @@
+# #question1
+
+
+marks =int(input("enter the marks : "))
+if(marks >= 90):
+    print("grade is A")
+elif(marks >= 80 and marks < 90):
+    print("grade is B")
+elif(marks <= 80 and marks >= 70 ):
+    print("grade is C")
+else:
+    print("grade is D")
+
+
+#question2
+
+
+# find odd and even number.
+
+num = int(input("enter the number : "))
+if(num%2 == 0):
+    print("this number is even")
+else:
+    print("this number is odd")
+
+
+
+
+#question3
+
+
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter third number: "))
+
+if(a > b and a > c):
+    print(print("highest number is:", a))
+elif(b > c):
+    print("highest number is:", b)
+else:
+    print("highest number is:", c)
+
+
+#question4
+#check if the number is multiple of 7 or not .
+
+
+num = int(input("enter the number : "))
+if (num%7 == 0):
+    print("multiple of 7")
+else:
+    print("number is not the multiple of 7")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

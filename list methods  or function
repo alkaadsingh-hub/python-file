@@ -1,0 +1,99 @@
+# LIST METHODS
+# 1. list.append()
+# 2. list.sort()
+# 3. list.sort(reverse=true)
+# 4. list.reverse()
+# 5. list.insert(idx, el) idx=index
+# 6. list.remove()
+# 7. list.pop(indx)
+
+
+
+# 1. list.append()
+# # it add one element at the end 
+list = [2, 7, 33, 74, 7.5]
+list.append("hello")   #this is called mutation(change in list)..mutation is allowed in list
+print(list)
+
+
+
+# 2. list.sort()
+# this will sort the list in ascending order(samll to large)
+list1 = [30, 40, 55, 15, 9.2, 73, 51, 7, 75]
+print(list1.sort())   ##we can also append the list if we want before sorting 
+print(list1)
+
+
+
+#3. lisr.sort(reverse = true)
+#it will sort the list in decending order
+
+list2 = [30, 40, 55, 15, 9.2, 73, 51, 7, 75]
+print(list2.sort(reverse = True)) #small true isnot valid
+print(list2)
+
+
+
+###sorting in string
+list = ["lichi", "yellow", "health", "green", "green land", "apple", "banana"]
+print(list.sort())
+print(list)
+
+
+# list3 = ["lichi", "yellow", "health", "green", "green land", "apple", "banana"]
+print(list.sort(reverse = True))
+print(list)
+
+
+
+#4. list.reverse()
+list4 = ["lichi", "yellow", "health", "green", "green land", "apple", "banana"]
+list4.reverse()
+print(list4)
+
+
+
+#5. list.insert(index, el)..............   index means at which index we want to add a new value. and el is element means what element we want to add
+#insert element at index
+
+list2 = [30, 40, 55, 15, 9.2, 73, 51, 7, 75]
+list2.insert(2, 66)
+print(list2)
+
+
+
+#6. list.remove()         remove the first occurence of element
+list2 = [30, 40, 55, 15, 73, 51, 7, 15, 75]
+list2.remove(15)
+print(list2)
+
+
+
+#7.list.pop(indx)         delete the element from a particular index 
+
+list2 = [30, 40, 55, 15, 9.2, 73, 51, 7, 75]
+list2.pop(6)
+print(list2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

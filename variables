@@ -1,0 +1,28 @@
+name = "alka singh" 
+age = 25
+qualification = "mca"
+price = 10.25
+print( name)
+print( age)  
+print( qualification)  
+print( price)  
+
+print("my name is :" , name)
+print("my age is :" , age)
+print("my qualification is :", qualification)
+
+print(type(name))
+print(type(price))
+print(type(age))
+print(type(qualification))
+
+name2  = "sandhya"
+age2 = True
+a = None
+
+print(type(name2))
+print(type(age2))
+print(type(a))
+
+
+

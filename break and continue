@@ -1,0 +1,96 @@
+##  BREAK:-
+#Break is used to terminate the loop when encountered. The will stop after "break".
+
+a = 0
+while a <= 10:
+    print(a)
+    if(a == 7):
+     break
+    a += 1
+
+
+
+
+
+##continue:-
+#Continue is used to skip the current iteration and continue with the next iteration of the loop.
+
+
+
+c = 0
+while c <= 10:
+     if(c == 6):
+         c += 1
+         continue #skip
+     print(c)
+     c += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+##WHILE LOOP
+
+count = 1
+while count <= 6:
+    print("hello")
+    count += 1
+
+print(count)
+
+
+## we have defined a variable count and assigned it a value of 1. Then we have defined a while loop that will run as long as the value of count is less than or equal to 6. Inside the loop, we print "hello" and then increment the value of count by 1. This will result in "hello" being printed 6 times.
+
+## the variable "count" we have defined is called ITERATOR variable. It is used to keep track of the number of times the loop has run. In this case, it is used to count the number of times "hello" has been printed.
+
+##ITERATION means the process of repeating a set of instructions a certain number of times or until a specific condition is met. In programming, iteration is often achieved using loops, such as for loops and while loops. 
+
+
+
+i = 1
+while i <= 7:
+    print("student")
+    i += 1
+
+
+i = 1
+while i <=100:
+    print("tab", i)
+    i += 1
+
+
+#Lets print the number with the help of while loop
+j = 1
+while j <= 50:
+    print(j)
+    j += 1
+
+#reverse order of numbers
+k = 50
+while k >= 1:
+    print(k)
+    k -= 2
+
+
+
+
+
+

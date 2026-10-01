@@ -1,0 +1,40 @@
+##question 1
+#write a program toinput two numbers from user and print their sum
+##solution
+
+number =int( input("first number:"))
+number1 = int(input("second number:"))
+sum = number + number1
+print("sum of twonumber is:",sum)
+
+
+##question 2
+#write a program to input side of a square and print its area
+##solution
+
+side = int(input("enter side of a square:"))
+square = side * side
+print("area of square is:", square)
+
+
+##question 3
+#WAP to input two floating point numbers from user and print their average
+#solution
+
+a =float(input("enter first number:"))
+b = float(input("enter second number:"))
+average = (a + b)/ 2
+print("average of two floating no. is :", average)
+
+
+#question 4
+# WAP to input two numbers from user and print the result of first number is greater than or equal to second number or not if not print false.
+#solution
+
+c = int(input("enter first number:"))
+d = int(input("enter second number:"))
+
+print(c >= d)
+
+
+

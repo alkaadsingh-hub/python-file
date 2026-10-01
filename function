@@ -1,0 +1,151 @@
+# ##FUCTION
+# #function is a block of code which perform a specific task when it called.
+ 
+# #printing sum using function :-
+
+
+#function defination
+def calcu_sum(a, b):    #parameters (a,b)
+    return a + b
+
+sum = calcu_sum(1, 7)  #fuction call; arguemnt(1,7)
+print(sum)
+
+
+
+
+
+
+
+
+def word_name():   #function defined    we can leave the parametrs 
+ 
+  #here we have passed the return value so if we strore the function name in a varabile and then try toprint it the output will be NONE
+  #because we have not asked python to return the value.
+
+ word_name()  #function called 
+print("hello")
+
+
+
+
+##TWO things in fuctions are completely optional :-
+#1. prameter - we can create a function without passing parameter
+#2. return - if we want to create a function which is not going toreturn any output ......we can create.
+
+
+
+
+
+
+#calculating average of 3 number:-
+def avg_num(a, b, c):
+   sum = a + b + c              # INDENTATION IS MUST WHILE CREATING A FUNCTION (SPACING)
+   avg = sum / 3
+   return avg
+
+avg = avg_num(127, 111, 3335)
+print(avg)
+
+
+
+
+
+## TYPES OF FUNCTION :-
+#1. BUILT IN FUNCTION 
+#already defined in python . example : print(), range(), len(), type()  etc
+
+#2.USER DEFINED FUNCTION :-
+#defined by user, programmer, or developer 
+
+
+
+
+
+#3DEFAULT FUCTION:-
+#Assingning a default value to parameter, which is used when no argument is passed.
+
+def calc_prod(a = 1, b = 3):    # we have passed default values in parameter.
+   return a * b
+
+prod = calc_prod()      #no argument has been passed here
+print(prod)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

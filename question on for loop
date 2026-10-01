@@ -1,0 +1,70 @@
+# #question 1.
+# #print the element of the following list using loop [1,4,9,16,25,36,49,64,81,100]
+
+
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for value in list:
+    print(value)
+
+
+
+
+
+# #queston 2.
+# # search for a number from this tuple using loop (1, 36, 47, 38, 90, 80, 15, 105, 200, 300) and print the index of that number.
+
+
+tup = (1, 36, 47, 38, 90, 80, 15, 105, 200, 300)
+x = 105    #need to define a variable to search the number from the tuple
+index = 0
+
+# for value in tup:
+if (value == x):
+        print("found at index", index)
+        index += 1  #used forincrement the index value by 1 after each iteration of the loop IF the value repeated in tuple it will check and provide index of it in output.
+
+
+
+#print the factorial of n number using forloop:-
+
+n = 5
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+
+print("factorial =",fact)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+#type conversion
+a = 10
+b = 3.253
+print("sum:", a + b)  
+
+value = "15"
+value1 = 3.5
+print("sum:", value + value1)  ####NOT ACCEPTABLE BY PYTHON as we are trying to add string ("15") and float value .......to do this we use type casting
+
+
+
+ #type casting 
+value = int("15") #converting string to integer
+value1 = 3.5
+print(type(value))
+print("sum:", value + value1)
+
+
+num = 10
+num = str(num)  #converting integer to string
+print(type(num))

@@ -1,0 +1,62 @@
+mov = []
+
+movie = input("enter first favourite movie: ")
+movie1 = input("enter second favourite movie: ")
+movie2 = input("enter third favourite movie: ")
+
+mov.append(movie)
+mov.append(movie1)
+mov.append(movie2)
+
+print(mov)
+
+
+
+
+#question 2
+#wap to check if a list contains a palindrome of elements or not.
+
+##palindrome refers to the term,when we read a tuple from starting to end  and  end to starting the order of tuple is same. example- 121 if we read this from starting and end it will follow same order .
+
+list = [1, 2, 3, 2, 1, 4]
+# list2 = [1, 2, 2, 1]
+
+copy_list = list.copy()
+copy_list.reverse()
+
+
+if(copy_list == list):
+    print("The list is a palindrome")
+else:
+    print("The list is not a palindrome")
+
+
+
+
+
+
+
+#WAP to count the number of times a specific element appears in a tuple.
+
+grades = ("c", "a", "a", "c", "b", "a", "c", "b", "a", "c")
+print(grades.count("a"))
+
+
+#save the above tuple in a list and print the list in a sorted manner.
+grades = ["c", "a", "a", "c", "b", "a", "c", "b", "a", "c"]
+grades.sort()
+print(grades)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
