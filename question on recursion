@@ -1,0 +1,87 @@
+#question1
+#write a function to calculate the sum of first n natural numbers using recursion:-
+
+def sum(n):
+    if(n == 0):     ##base case - it will stop the recursion when n is 0
+        return 0
+    return sum(n-1) + n   ##it will call itself with a different argument and add the value of n to the result of the recursive call
+
+print(sum(20)) ##function called
+
+
+
+
+
+
+#question2
+# write a function to print the list using recursion:-
+
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+
+def list(list, idx =0):
+    if(idx == len(list)):   #base case - it will stop the recursion when idx is equal to the length of the list
+        return 
+    print(list[idx])   #print the element at the current index
+    list(list, idx+1)      #it will call itself with a different argument (idx+1) to move to the next index in the list
+
+
+    var = (list(fruits))    #function called 
+
+    print(var)   #print the stored value of the function call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

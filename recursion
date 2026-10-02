@@ -1,0 +1,72 @@
+#RECURSION
+#when functioncall itself repeatedly is calledas RECURSION
+
+
+#lets print the n number from 10 to 1:-
+
+def show(n):
+    if(n == 0):      ##BASE CASE - IT decides when to stop the recursion 
+        return       ##It will stop the recursion when n is 0
+    print(n)
+    show(n-1)        ##RECURSIVE FUNCTION - it calls itself with a different argument
+
+
+show(10)             ##FUNCTION CALL
+
+
+
+
+
+
+
+##lets calculate fctorial of a number n using recursion:-
+
+def fact(n):
+    if(n ==1):     ##base case - it will stop the recursion when n is 1
+        return 1
+    
+    return fact(n-1) * n
+
+
+print(fact(5))          ##function call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
