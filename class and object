@@ -1,0 +1,139 @@
+#creating class:-
+#syntax
+# class Class name:
+#     var = "string or anything"
+
+
+class Student:         #Ist letter of "class name" must be in capital.
+    name = "vaibhav"    #for now it will print the same name for very student.
+
+
+
+
+
+
+#creating object:-
+#syntax
+#variable = Classname()
+# print(variable)
+# print(variable.var)     #variable.var(stored in classname
+#
+s1 = Student       #object created or instance.
+print(s1)          #it will print only the"blue print of an object"....that is ->  "<class '__main__.Student'>""
+print(s1.name)     #for now it will print the same name for very student. If we create different variable as "s2" and print(s2.name) it will print "vaibhav" again.
+
+s2 = Student()
+print(s2.name)
+
+
+
+
+class Car:
+    color  = "black"
+    warranty = "5 years"
+    brand = "BMW"
+    
+
+car1 = Car()
+print(car1)
+print(car1.color)
+print(car1.brand)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
