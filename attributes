@@ -1,0 +1,68 @@
+#ATTRIBUTES:-
+#data or variable in which data is stored
+
+
+#there are two types of attributes :-
+#1. Class Attributes: Variables shared by all objects of a class.
+#example -->  college name 
+#2. Instance Attributes: Variables that belong to a specific object and can have different values for different objects.
+# example --> student name
+
+
+#there is higher precendence of object attribute.
+
+
+
+
+class Student:
+    college_name = "XYZ college"
+    name = "unknown"     #class attributes
+
+    def __init__(self, name, marks, age):
+     self.name = name
+     self.marks = marks     #object attributes
+     self.age = age
+     print("class and instance attribute")
+
+
+s1 = Student("john",96, 20)
+s2 = Student("ryon",65, 21)
+
+print(s2.age)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
