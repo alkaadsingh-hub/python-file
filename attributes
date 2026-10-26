@@ -2,7 +2,8 @@
 #data or variable in which data is stored
 
 
-#there are two types of attributes :-
+#There are two types of attributes :-
+
 #1. Class Attributes: Variables shared by all objects of a class.
 #example -->  college name 
 #2. Instance Attributes: Variables that belong to a specific object and can have different values for different objects.
@@ -10,8 +11,6 @@
 
 
 #there is higher precendence of object attribute.
-
-
 
 
 class Student:
@@ -29,40 +28,3 @@ s1 = Student("john",96, 20)
 s2 = Student("ryon",65, 21)
 
 print(s2.age)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
