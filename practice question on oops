@@ -27,11 +27,13 @@ class Bank:
 
 
 
+#creating object
+
 account1 = Bank(10000, 6346916)
 account1.debit(1000)  #this will deduct the amount
 account1.credit(500)  #this will add the amount 
-# print(account1.balance)
-# print(account1.acc)
+print(account1.balance)
+print(account1.acc)
 
 
 
