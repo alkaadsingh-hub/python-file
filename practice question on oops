@@ -1,0 +1,39 @@
+
+#Create account class with 2 attribute -balance and accountno. 
+#create method for debit ,credit, and printing the  balance.
+
+
+class Bank:
+    def __init__(self, balance, acc):
+        self.balance = balance
+        self.acc = acc
+
+
+    # creating debit method
+    def debit(self, amount):
+        self.balance -= amount
+        print("Rs.", amount, "was debited")
+        print("total balance", self.final_bal())
+
+    #creating credit method
+    def credit(self, add):
+        self.balance += add
+        print("rs.", add, "was credited")
+        print("total balance", self.final_bal())
+
+    def final_bal(self):     #this will return final amount 
+        return  self.balance    
+
+
+
+
+account1 = Bank(10000, 6346916)
+account1.debit(1000)  #this will deduct the amount
+account1.credit(500)  #this will add the amount 
+# print(account1.balance)
+# print(account1.acc)
+
+
+
+
+
