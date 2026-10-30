@@ -1,0 +1,106 @@
+#STATIC METHOD:-
+#static methods are methods that don't use self parameter and work at class level(don't work at object level).
+
+
+
+# syntax:-
+
+# class Hello:
+#     @staticmethod    #decorator
+#     def college()
+#         print("abc college")
+
+
+
+
+
+
+class Hello:
+    @staticmethod    #decorator
+    def hello():
+        print("hyy!")
+    def college():
+        print("abc college")
+
+
+
+s = Hello()
+s.hello()         #staticmethod called
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
