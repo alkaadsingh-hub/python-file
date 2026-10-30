@@ -14,7 +14,6 @@
 
 
 
-
 class Hello:
     @staticmethod    #decorator
     def hello():
