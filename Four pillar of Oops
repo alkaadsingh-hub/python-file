@@ -1,64 +1,63 @@
 #1. Abstraction:-
 #Hiding the implementation details of class and only showing the essential features to the user.
 #2. Encapsulation:-
- #encapsulation means combining data (variables) and methods (functions) inside a single class and controlling how that data is accessed or modified.
- #wrapping data and function into single unit(object).
+#encapsulation means combining data (variables) and methods (functions) inside a single class and controlling how that data is accessed or modified.
+#wrapping data and function into single unit(object).
 
-# # #3. Inheritance:-
+#3. Inheritance:-
+#when one class(child/ derived) derivesthe property and method of another class(parent/ base).
+# there are 3 types of inheritance :-
+#1. single inheritance
+#2. multi-level 
+#3. multiple inheritance 
 
-
-# # #4. Polymorphism:-
-
-
-
-
-
-
-# # #Abstraction:-
-# # #example: car
-
-# # class Car:
-# #     def __init__(self):
-# #         self.accelator = False
-# #         self.brk = False        #false means car has not been started
-# #         self.clutch = False
+#4. Polymorphism:-
 
 
-# #     def startcar(self):          
-# #         self.accelator = True    #ture means car is started
-# #         self.clutch = True
-# #         print("car started......")
+#Abstraction:-
+#example: car
+
+class Car:
+     def __init__(self):
+         self.accelator = False
+         self.brk = False        #false means car has not been started
+         self.clutch = False
 
 
-# # #creating object 
-# # car1 = Car()
-# # car1.startcar()
+     def startcar(self):          
+        self.accelator = True    #ture means car is started
+        self.clutch = True
+        print("car started......")
 
 
+ #creating object 
+ car1 = Car()
+ car1.startcar()
 
 
 
 
 
 
-# #delete key word(del):-
-# #used to delete object properties or object itself.
 
-# #syntax:-
-# # del s1.name   (this will delete the attributes)
-# # del s1         (this will delete the object )
+#delete key word(del):-
+#used to delete object properties or object itself.
 
-
-# class Intro:
-#     def __init__(self, name):
-#         self.name = name
+#syntax:-
+# del s1.name   (this will delete the attributes)
+# del s1         (this will delete the object )
 
 
+ class Intro:
+     def __init__(self, name):
+         self.name = name
 
 
-# # a1 = Intro("raj")
-# # del a1
-# # print(a1)
+
+
+ a1 = Intro("raj")
+ del a1
+ print(a1)
 
 
 
@@ -67,11 +66,11 @@
 
 
 
+
 #Encapsulation:-
 # Encapsulation in Python is an OOP concept in which we bind data (variables) and methods (functions) together inside a class and restrict direct access to certain data
 
-
-##Private aatributes and methods:-
+#Private aatributes and methods:-
 
 #we implemnt private and public conceptually in python
 #private attributes and methods are meant to be used only within the class and are not accessible from outside the class.
@@ -79,32 +78,32 @@
 #to make attribute private we use two underscore(__).
 
 
-# class Aadhar:
-#     def __init__(self, acc, password):
-#         self.__password = password   #used two underscore to make attribute private. this will not be accessed by any user.
-#         self.acc = acc
+class Aadhar:
+    def __init__(self, acc, password):
+        self.__password = password   #used two underscore to make attribute private. this will not be accessed by any user.
+        self.acc = acc
 
-#     def reset_password(self):
-#         print(self.__password)
+    def reset_password(self):
+         print(self.__password)
 
 
-# b1 = Aadhar("abcd", "3164561321984")
-# print(b1.__password)
+ b1 = Aadhar("abcd", "3164561321984")
+ print(b1.__password)
 
-# print(b1.reset_password())
+ print(b1.reset_password())
 
 
 
 #making class conceptually private.
-# class Person:
-#     __name = "anonymous"
+ class Person:
+     __name = "anonymous"
 
-#     def __hii(self):  #private method created
-#         print("hii person")
+     def __hii(self):  #private method created
+         print("hii person")
 
 
-# p1 = Person()
-# print(p1.__name)
+p1 = Person()
+print(p1.__name)
 
 
 
@@ -135,6 +134,7 @@ class Car:
 
 #now we are creating another class to inherit the property of another class (the above class )
 
+#This is single inheritance:-
 class BMW(Car):
  def __init__(self, name):
      self.name = name
@@ -149,10 +149,6 @@ print(car1.start())   #this will print the"car started" as it has taken heritanc
 
 
 
-# there are 3 types of inheritance 
-#1. single inheritance-
 
-#2. multi-level 
-#3. multiple inheritance 
 
 
