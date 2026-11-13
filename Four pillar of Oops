@@ -1,11 +1,17 @@
+#FOUR PILLARS OF OOPS:-
 #1. Abstraction:-
 #Hiding the implementation details of class and only showing the essential features to the user.
+
 #2. Encapsulation:-
 #encapsulation means combining data (variables) and methods (functions) inside a single class and controlling how that data is accessed or modified.
 #wrapping data and function into single unit(object).
 
 #3. Inheritance:-
-
+#when one class(child/ derived) derives the property and method of another class(parent/ base).
+# there are 3 types of inheritance :-
+#a.) single inheritance
+#b.) multi-level 
+#c.) multiple inheritance 
 
 #4. Polymorphism:-
 
@@ -13,8 +19,7 @@
 
 
 
-
-#Abstraction:-
+#1. Abstraction:-
 #example: car
 
 class Car:
@@ -60,7 +65,7 @@ del a2.name
 
 
 
-#Encapsulation:-
+#2. Encapsulation:-
 #Encapsulation in Python is an OOP concept in which we bind data (variables) and methods (functions)
 #together inside a class and restrict direct access to certain data
 
@@ -104,7 +109,7 @@ print(p1.__name)
 
 
 
-#3.Inheritance:-
+#3. Inheritance:-
 #when one class(child/ derived) derives the property and method of another class(parent/ base).
 # there are 3 types of inheritance :-
 #1. single inheritance
@@ -187,8 +192,75 @@ print(a.varA)
 
 
 
+#super() method or function:-
+#super() method is used to access the parent class methods and properties in the child class.
+
+class Hello:
+   def __init__(self, name):
+      self.name = name
+        
+      @staticmethod
+      def greet():
+         print("hyy")
+
+class Welcome(Hello):
+   def __init__(self,age, name):
+      self.age = age
+      super(). __init__(name)   #it has accesed the parent class (hello) method and property using super() function.
+   
+   
+
+k = Welcome(30, "roy")
+
+print(k.name)
 
 
+
+
+
+#classmethod:-
+#classmethod is a method that takes class as its first argument and can be called,changed using class name 
+
+class Student:
+   name = "anonymous"
+
+   @classmethod
+   def changename(cls, name):   #cls is used to access the class property
+      cls.name = name
+
+
+s = Student()
+s.changename("rahul")
+print(s.name)   #this will print the name of the student
+print(Student.name) 
+
+
+
+
+#propertymethod:-
+#property method is used to access and change method.
+#we useproperty decorator  on any method in theclass to use the method as a property.
+
+class College:
+   def __init__(self,phy, chem, maths):
+      self.phy = phy
+      self.chem = chem
+      self.maths = maths
+
+   @property
+   def percentage(self):
+    return str((self.phy + self.chem + self.maths) / 3) + "%"
+
+# we need to calculated percentage of marks obtained by student in all subjects.
+#but we realised that the marks has not been correct now we want calculate % of students based onupdated marks.
+#for that we use property method to access the method as a property and change the marks of student.
+
+   
+s1 = College(90, 80, 70)
+print(s1.percentage)   #this will print the percentage of student marks 
+
+s1.chem = 30
+print(s1.percentage)   #this will print the updated percentage of student marks
 
 
 
