@@ -14,7 +14,7 @@
 #c.) multiple inheritance 
 
 #4. Polymorphism:-
-
+# when the same operator is allowed tohave different meaning according tothe context it is used.
 
 
 
@@ -261,6 +261,39 @@ print(s1.percentage)   #this will print the percentage of student marks
 
 s1.chem = 30
 print(s1.percentage)   #this will print the updated percentage of student marks
+
+
+#4. Polymorphism:-
+#poly means many and morphism means forms.
+#polymorphism means many forms.
+# when the same operator is allowed tohave different meaning according tothe context it is used.
+
+
+
+print(5 + 2)  #add
+print("hello" + "\n" "students")  #concatenate
+print([30,40,50] + [90, 20,75]) #merge two lists
+
+# the above all are implicit overloading as it is already defined by python.
+
+
+#we will create a class to calculate the sum of complex numbers.
+class Complex:
+   def __init__(self, real, imag):
+      self.real = real
+      self.imag = imag
+
+   def shownumber(self):
+      print(self.real, "i +", self.imag, "j")
+
+
+num = Complex(5, 7)
+num.shownumber()  #this will print the complex number
+
+num1 = Complex(7, 2)
+num1.shownumber()  #this will print the complex number()
+
+
 
 
 
