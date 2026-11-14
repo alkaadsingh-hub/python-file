@@ -235,8 +235,6 @@ print(s.name)   #this will print the name of the student
 print(Student.name) 
 
 
-
-
 #propertymethod:-
 #property method is used to access and change method.
 #we useproperty decorator  on any method in theclass to use the method as a property.
@@ -268,8 +266,6 @@ print(s1.percentage)   #this will print the updated percentage of student marks
 #polymorphism means many forms.
 # when the same operator is allowed tohave different meaning according tothe context it is used.
 
-
-
 print(5 + 2)  #add
 print("hello" + "\n" "students")  #concatenate
 print([30,40,50] + [90, 20,75]) #merge two lists
@@ -286,10 +282,8 @@ class Complex:
    def shownumber(self):
       print(self.real, "i +", self.imag, "j")
 
-
 num = Complex(5, 7)
 num.shownumber()  #this will print the complex number
-
 num1 = Complex(7, 2)
 num1.shownumber()  #this will print the complex number()
 
